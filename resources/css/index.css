@@ -1,0 +1,205 @@
+.navbar {
+  background-color: white;
+  position:fixed;
+  top: 0;
+  width:100%;
+
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0,0.5)
+    ),
+    url(https://danielfooddiary.com/wp-content/uploads/2019/07/banchongcafe1.jpg);
+  background-color: rgb(204, 203, 203);
+  color: white;
+  top: 50%;
+  left: 60%;
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+
+}
+
+#small-cutifier {
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.cutifiersection {
+  padding: 20px 0px;
+}
+
+.wraptext{
+  border:none;
+  margin-bottom: 20px;
+}
+
+#Cutifier {
+  color: #0e0d25;
+  font-size: 40px;
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+
+#cute ul {
+  list-style-type: none;
+}
+
+
+
+.bold {
+  font-weight: 900;
+
+}
+
+a.violet {
+  color: #4C0E17;
+}
+
+
+.button1 {
+  background-color: rgb(94, 117, 117) ;
+  border: none;
+  color: white;
+  padding:13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absoluter;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.gallery{
+  display: grid;
+  width: 900px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.wrapperbox {
+  border: none;
+}
+
+.box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.module {
+  width: 25%;
+  border: 1px solid white;
+  border-radius: 24px;
+}
+
+.module > div {
+  padding: 10px;
+  position:relative;
+}
+
+.module > div > img {
+  height: 300px;
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 13px;
+}
+
+.module > div > header {
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  padding-left: 30px;
+}
+
+.wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right:0;
+  left:0;
+}
+
+.form {
+  width: 300px;
+  padding:20px;
+  background-image: url(https://cdn-babol.nitrocdn.com/SxIgzppCVZeztHilycrxoyImvkBphpnb/assets/static/source/seandalt.com/wp-content/uploads/2018/06/8fec8b1b11b35d6884dd63166c2dc33a.products-SDD00105-3.jpg);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px white;
+  display:flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+
+}
+
+span, input {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button2 {
+  display: grid;
+  color: white;
+  border: none;
+  background-color: #0e0d25;
+  padding: 10px;
+  border-radius: 5px;
+} 
+
+.footer { 
+  position:static;
+  height: 200px;
+  background-color: #e8eef0e1;
+  color: white;
+  text-align: center;
+}
